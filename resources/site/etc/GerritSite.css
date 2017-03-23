@@ -30,7 +30,7 @@ td {
 }
 
 #gerrit_topmenu .topmenuTDmenu{
-    vertical-align: inherit;
+    vertical-align: top;
 }
 
 #gerrit_topmenu .topmenuMenuLeft .gwt-TabPanelBottom{
@@ -368,4 +368,7 @@ select.gwt-ListBox,
 .com-google-gerrit-client-admin-ProjectAccessEditor_BinderImpl_GenCss_style-inheritsFrom,
 .com-google-gerrit-client-admin-ProjectAccessEditor_BinderImpl_GenCss_style-history {
     margin-top: 1em;
+}
+.searchPanel .searchTextBox{
+    width:40%;
 }
